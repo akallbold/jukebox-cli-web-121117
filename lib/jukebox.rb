@@ -21,22 +21,22 @@ end
 def list(playlist)
   playlist.each_with_index do |song,i|
     puts "#{i}. #{song}"
-<<<<<<< HEAD
-=======
+# <<<<<<< HEAD
+# =======
   end
->>>>>>> 40af567677778d340ead373815e0ebcd8c8bca66
+# >>>>>>> 40af567677778d340ead373815e0ebcd8c8bca66
 end
 
 def play(playlist)
   puts "Please enter a song name or number:"
   user_response= gets.chomp
-<<<<<<< HEAD
+# <<<<<<< HEAD
 
     if playlist.includes?(user_response)
       puts "Playing #{user_response}"
     elsif user_response >= 1 && user_response <= playlist.size
       choice= playlist[choice-1]
-=======
+# =======
   song= ""
   comp_output= "/#{song}/"
 
@@ -46,7 +46,7 @@ def play(playlist)
     elsif user_response.to_i >= 1 && user_response.to_i <= playlist.size
       choice = playlist[user_response.to_i-1]
       song = choice
->>>>>>> 40af567677778d340ead373815e0ebcd8c8bca66
+# >>>>>>> 40af567677778d340ead373815e0ebcd8c8bca66
       "Playing #{choice}"
     else
       puts "Invalid input, please try again"
@@ -54,7 +54,7 @@ def play(playlist)
 <<<<<<< HEAD
 =======
   # $stdout = comp_output
->>>>>>> 40af567677778d340ead373815e0ebcd8c8bca66
+# >>>>>>> 40af567677778d340ead373815e0ebcd8c8bca66
 end
 
 def exit_jukebox
@@ -62,7 +62,7 @@ def exit_jukebox
 end
 
 def run(playlist)
-<<<<<<< HEAD
+# <<<<<<< HEAD
 help
 puts "Please enter a command:"
 user_input = gets.chomp
@@ -85,7 +85,7 @@ user_input = gets.chomp
 
 end
 
-=======
+# =======
   help
   puts "Please enter a command:"
   user_input = gets.chomp
@@ -103,6 +103,6 @@ end
     else
       run(playlist)
     end
->>>>>>> 40af567677778d340ead373815e0ebcd8c8bca66
+# >>>>>>> 40af567677778d340ead373815e0ebcd8c8bca66
 
 end
