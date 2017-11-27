@@ -29,7 +29,6 @@ def play(playlist)
   user_response= gets.chomp
   song = ""
 
-
     if playlist.include?(user_response)
       puts "Playing #{user_response}"
       song = user_response
