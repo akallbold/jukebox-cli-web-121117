@@ -28,7 +28,7 @@ def play(playlist)
   puts "Please enter a song name or number:"
   user_response= gets.chomp
   song= ""
-  comp_output= "/#{song}/"
+  puts "/#{song}/"
 
     if playlist.include?(user_response)
       puts "Playing #{user_response}"
@@ -40,7 +40,7 @@ def play(playlist)
     else
       puts "Invalid input, please try again"
     end
-    $stdout = "/#{song}/"
+    # $stdout = "/#{song}/"
 end
 
 def exit_jukebox
