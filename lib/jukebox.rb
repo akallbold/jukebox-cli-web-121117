@@ -40,7 +40,7 @@ def play(playlist)
     else
       puts "Invalid input, please try again"
     end
-  # $stdout = comp_output
+  $stdout = comp_output
 end
 
 def exit_jukebox
