@@ -51,8 +51,8 @@ def play(playlist)
     else
       puts "Invalid input, please try again"
     end
-<<<<<<< HEAD
-=======
+# <<<<<<< HEAD
+# =======
   # $stdout = comp_output
 # >>>>>>> 40af567677778d340ead373815e0ebcd8c8bca66
 end
